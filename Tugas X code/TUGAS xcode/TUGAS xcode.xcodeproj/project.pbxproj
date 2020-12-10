@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9AFBA35258224BD00DC43B5 /* TUGAS_xcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFBA34258224BD00DC43B5 /* TUGAS_xcodeApp.swift */; };
+		E9AFBA37258224BD00DC43B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFBA36258224BD00DC43B5 /* ContentView.swift */; };
+		E9AFBA39258224BF00DC43B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AFBA38258224BF00DC43B5 /* Assets.xcassets */; };
+		E9AFBA3C258224BF00DC43B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AFBA3B258224BF00DC43B5 /* Preview Assets.xcassets */; };
+		E9AFBA47258224BF00DC43B5 /* TUGAS_xcodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFBA46258224BF00DC43B5 /* TUGAS_xcodeTests.swift */; };
+		E9AFBA52258224BF00DC43B5 /* TUGAS_xcodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFBA51258224BF00DC43B5 /* TUGAS_xcodeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9AFBA43258224BF00DC43B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9AFBA29258224BD00DC43B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9AFBA30258224BD00DC43B5;
+			remoteInfo = "TUGAS xcode";
+		};
+		E9AFBA4E258224BF00DC43B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9AFBA29258224BD00DC43B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9AFBA30258224BD00DC43B5;
+			remoteInfo = "TUGAS xcode";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9AFBA31258224BD00DC43B5 /* TUGAS xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TUGAS xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AFBA34258224BD00DC43B5 /* TUGAS_xcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUGAS_xcodeApp.swift; sourceTree = "<group>"; };
+		E9AFBA36258224BD00DC43B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9AFBA38258224BF00DC43B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9AFBA3B258224BF00DC43B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9AFBA3D258224BF00DC43B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AFBA42258224BF00DC43B5 /* TUGAS xcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TUGAS xcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AFBA46258224BF00DC43B5 /* TUGAS_xcodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUGAS_xcodeTests.swift; sourceTree = "<group>"; };
+		E9AFBA48258224BF00DC43B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AFBA4D258224BF00DC43B5 /* TUGAS xcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TUGAS xcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9AFBA51258224BF00DC43B5 /* TUGAS_xcodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUGAS_xcodeUITests.swift; sourceTree = "<group>"; };
+		E9AFBA53258224BF00DC43B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9AFBA2E258224BD00DC43B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AFBA3F258224BF00DC43B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AFBA4A258224BF00DC43B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9AFBA28258224BD00DC43B5 = {
+			isa = PBXGroup;
+			children = (
+				E9AFBA33258224BD00DC43B5 /* TUGAS xcode */,
+				E9AFBA45258224BF00DC43B5 /* TUGAS xcodeTests */,
+				E9AFBA50258224BF00DC43B5 /* TUGAS xcodeUITests */,
+				E9AFBA32258224BD00DC43B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9AFBA32258224BD00DC43B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9AFBA31258224BD00DC43B5 /* TUGAS xcode.app */,
+				E9AFBA42258224BF00DC43B5 /* TUGAS xcodeTests.xctest */,
+				E9AFBA4D258224BF00DC43B5 /* TUGAS xcodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9AFBA33258224BD00DC43B5 /* TUGAS xcode */ = {
+			isa = PBXGroup;
+			children = (
+				E9AFBA34258224BD00DC43B5 /* TUGAS_xcodeApp.swift */,
+				E9AFBA36258224BD00DC43B5 /* ContentView.swift */,
+				E9AFBA38258224BF00DC43B5 /* Assets.xcassets */,
+				E9AFBA3D258224BF00DC43B5 /* Info.plist */,
+				E9AFBA3A258224BF00DC43B5 /* Preview Content */,
+			);
+			path = "TUGAS xcode";
+			sourceTree = "<group>";
+		};
+		E9AFBA3A258224BF00DC43B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9AFBA3B258224BF00DC43B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9AFBA45258224BF00DC43B5 /* TUGAS xcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9AFBA46258224BF00DC43B5 /* TUGAS_xcodeTests.swift */,
+				E9AFBA48258224BF00DC43B5 /* Info.plist */,
+			);
+			path = "TUGAS xcodeTests";
+			sourceTree = "<group>";
+		};
+		E9AFBA50258224BF00DC43B5 /* TUGAS xcodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9AFBA51258224BF00DC43B5 /* TUGAS_xcodeUITests.swift */,
+				E9AFBA53258224BF00DC43B5 /* Info.plist */,
+			);
+			path = "TUGAS xcodeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9AFBA30258224BD00DC43B5 /* TUGAS xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AFBA56258224BF00DC43B5 /* Build configuration list for PBXNativeTarget "TUGAS xcode" */;
+			buildPhases = (
+				E9AFBA2D258224BD00DC43B5 /* Sources */,
+				E9AFBA2E258224BD00DC43B5 /* Frameworks */,
+				E9AFBA2F258224BD00DC43B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TUGAS xcode";
+			productName = "TUGAS xcode";
+			productReference = E9AFBA31258224BD00DC43B5 /* TUGAS xcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9AFBA41258224BF00DC43B5 /* TUGAS xcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AFBA59258224BF00DC43B5 /* Build configuration list for PBXNativeTarget "TUGAS xcodeTests" */;
+			buildPhases = (
+				E9AFBA3E258224BF00DC43B5 /* Sources */,
+				E9AFBA3F258224BF00DC43B5 /* Frameworks */,
+				E9AFBA40258224BF00DC43B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9AFBA44258224BF00DC43B5 /* PBXTargetDependency */,
+			);
+			name = "TUGAS xcodeTests";
+			productName = "TUGAS xcodeTests";
+			productReference = E9AFBA42258224BF00DC43B5 /* TUGAS xcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9AFBA4C258224BF00DC43B5 /* TUGAS xcodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9AFBA5C258224BF00DC43B5 /* Build configuration list for PBXNativeTarget "TUGAS xcodeUITests" */;
+			buildPhases = (
+				E9AFBA49258224BF00DC43B5 /* Sources */,
+				E9AFBA4A258224BF00DC43B5 /* Frameworks */,
+				E9AFBA4B258224BF00DC43B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9AFBA4F258224BF00DC43B5 /* PBXTargetDependency */,
+			);
+			name = "TUGAS xcodeUITests";
+			productName = "TUGAS xcodeUITests";
+			productReference = E9AFBA4D258224BF00DC43B5 /* TUGAS xcodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9AFBA29258224BD00DC43B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					E9AFBA30258224BD00DC43B5 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					E9AFBA41258224BF00DC43B5 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E9AFBA30258224BD00DC43B5;
+					};
+					E9AFBA4C258224BF00DC43B5 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = E9AFBA30258224BD00DC43B5;
+					};
+				};
+			};
+			buildConfigurationList = E9AFBA2C258224BD00DC43B5 /* Build configuration list for PBXProject "TUGAS xcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9AFBA28258224BD00DC43B5;
+			productRefGroup = E9AFBA32258224BD00DC43B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9AFBA30258224BD00DC43B5 /* TUGAS xcode */,
+				E9AFBA41258224BF00DC43B5 /* TUGAS xcodeTests */,
+				E9AFBA4C258224BF00DC43B5 /* TUGAS xcodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9AFBA2F258224BD00DC43B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AFBA3C258224BF00DC43B5 /* Preview Assets.xcassets in Resources */,
+				E9AFBA39258224BF00DC43B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AFBA40258224BF00DC43B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AFBA4B258224BF00DC43B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9AFBA2D258224BD00DC43B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AFBA37258224BD00DC43B5 /* ContentView.swift in Sources */,
+				E9AFBA35258224BD00DC43B5 /* TUGAS_xcodeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AFBA3E258224BF00DC43B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AFBA47258224BF00DC43B5 /* TUGAS_xcodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9AFBA49258224BF00DC43B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AFBA52258224BF00DC43B5 /* TUGAS_xcodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9AFBA44258224BF00DC43B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9AFBA30258224BD00DC43B5 /* TUGAS xcode */;
+			targetProxy = E9AFBA43258224BF00DC43B5 /* PBXContainerItemProxy */;
+		};
+		E9AFBA4F258224BF00DC43B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9AFBA30258224BD00DC43B5 /* TUGAS xcode */;
+			targetProxy = E9AFBA4E258224BF00DC43B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9AFBA54258224BF00DC43B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9AFBA55258224BF00DC43B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9AFBA57258224BF00DC43B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TUGAS xcode/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TUGAS xcode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.TUGAS-xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9AFBA58258224BF00DC43B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TUGAS xcode/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "TUGAS xcode/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.TUGAS-xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9AFBA5A258224BF00DC43B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TUGAS xcodeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.TUGAS-xcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUGAS xcode.app/TUGAS xcode";
+			};
+			name = Debug;
+		};
+		E9AFBA5B258224BF00DC43B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TUGAS xcodeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.TUGAS-xcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TUGAS xcode.app/TUGAS xcode";
+			};
+			name = Release;
+		};
+		E9AFBA5D258224BF00DC43B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TUGAS xcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.TUGAS-xcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TUGAS xcode";
+			};
+			name = Debug;
+		};
+		E9AFBA5E258224BF00DC43B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "TUGAS xcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RPL-A.TUGAS-xcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TUGAS xcode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9AFBA2C258224BD00DC43B5 /* Build configuration list for PBXProject "TUGAS xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AFBA54258224BF00DC43B5 /* Debug */,
+				E9AFBA55258224BF00DC43B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AFBA56258224BF00DC43B5 /* Build configuration list for PBXNativeTarget "TUGAS xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AFBA57258224BF00DC43B5 /* Debug */,
+				E9AFBA58258224BF00DC43B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AFBA59258224BF00DC43B5 /* Build configuration list for PBXNativeTarget "TUGAS xcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AFBA5A258224BF00DC43B5 /* Debug */,
+				E9AFBA5B258224BF00DC43B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9AFBA5C258224BF00DC43B5 /* Build configuration list for PBXNativeTarget "TUGAS xcodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9AFBA5D258224BF00DC43B5 /* Debug */,
+				E9AFBA5E258224BF00DC43B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9AFBA29258224BD00DC43B5 /* Project object */;
+}
